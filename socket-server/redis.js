@@ -6,7 +6,7 @@ var redis = require('redis')
 var redisClient = redis.createClient({
 	    host: '127.0.0.1',
 	    port: 6379,
-	    // password: 'suke001'
+	    password: 'sheep'
 })
 
 redisClient.on("connect", function () {
